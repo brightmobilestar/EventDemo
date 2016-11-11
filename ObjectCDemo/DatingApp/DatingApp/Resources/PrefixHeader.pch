@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  DatingApp
+//
+//  Created by Steven Jimy   on 11/11/16.
+//  Copyright © 2016 Steven Jimy . All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "APIProtocols.h"
+#import "BaseAPI.h"
+#import "EventModel.h"
+#import "GuestModel.h"
+
+#endif /* PrefixHeader_pch */

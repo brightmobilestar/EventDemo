@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99FF5F761DD554C5006E7327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5F751DD554C5006E7327 /* main.m */; };
+		99FF5F821DD554C5006E7327 /* DatingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5F801DD554C5006E7327 /* DatingApp.xcdatamodeld */; };
+		99FF5F9B1DD5553D006E7327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5F911DD5553D006E7327 /* AppDelegate.m */; };
+		99FF5F9C1DD5553D006E7327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5F941DD5553D006E7327 /* Assets.xcassets */; };
+		99FF5F9D1DD5553D006E7327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5F971DD5553D006E7327 /* LaunchScreen.storyboard */; };
+		99FF5F9E1DD5553D006E7327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5F991DD5553D006E7327 /* Main.storyboard */; };
+		99FF5FA91DD557BB006E7327 /* EventDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5FA31DD557BB006E7327 /* EventDetailViewController.xib */; };
+		99FF5FAB1DD557BB006E7327 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5FA61DD557BB006E7327 /* EventViewController.xib */; };
+		99FF5FB91DD557CB006E7327 /* EventInforTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5FB01DD557CB006E7327 /* EventInforTableViewCell.xib */; };
+		99FF5FBB1DD557CB006E7327 /* EventSlideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5FB21DD557CB006E7327 /* EventSlideTableViewCell.xib */; };
+		99FF5FBD1DD557CB006E7327 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5FB51DD557CB006E7327 /* EventTableViewCell.xib */; };
+		99FF5FC21DD55837006E7327 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FC11DD55837006E7327 /* BaseViewController.m */; };
+		99FF5FC81DD55921006E7327 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FC71DD55921006E7327 /* EventDetailViewController.m */; };
+		99FF5FCB1DD55942006E7327 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FCA1DD55942006E7327 /* EventViewController.m */; };
+		99FF5FD11DD5598F006E7327 /* EventInforTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FD01DD5598F006E7327 /* EventInforTableViewCell.m */; };
+		99FF5FD41DD559A1006E7327 /* EventSlideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FD31DD559A1006E7327 /* EventSlideTableViewCell.m */; };
+		99FF5FD91DD55AD9006E7327 /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FD81DD55AD9006E7327 /* EventTableViewCell.m */; };
+		99FF5FDE1DD56A71006E7327 /* BaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FDD1DD56A71006E7327 /* BaseAPI.m */; };
+		99FF5FE11DD5722B006E7327 /* GetEventAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FE01DD5722B006E7327 /* GetEventAPI.m */; };
+		99FF5FE41DD5742B006E7327 /* EventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FE31DD5742B006E7327 /* EventModel.m */; };
+		99FF5FE71DD57699006E7327 /* EventFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FE61DD57699006E7327 /* EventFactory.m */; };
+		99FF5FEF1DD595B1006E7327 /* GuestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FEE1DD595B1006E7327 /* GuestModel.m */; };
+		99FF5FF21DD596AC006E7327 /* GetGuestByEventAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FF11DD596AC006E7327 /* GetGuestByEventAPI.m */; };
+		99FF5FF51DD598EE006E7327 /* GuestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FF41DD598EE006E7327 /* GuestFactory.m */; };
+		99FF5FF91DD5AE8F006E7327 /* EventGuestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FF71DD5AE8F006E7327 /* EventGuestTableViewCell.m */; };
+		99FF5FFA1DD5AE8F006E7327 /* EventGuestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FF5FF81DD5AE8F006E7327 /* EventGuestTableViewCell.xib */; };
+		99FF5FFE1DD5AFA5006E7327 /* GuestCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF5FFD1DD5AFA5006E7327 /* GuestCircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99FF5F711DD554C5006E7327 /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FF5F751DD554C5006E7327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99FF5F811DD554C5006E7327 /* DatingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatingApp.xcdatamodel; sourceTree = "<group>"; };
+		99FF5F881DD554C5006E7327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FF5F901DD5553D006E7327 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99FF5F911DD5553D006E7327 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99FF5F941DD5553D006E7327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99FF5F981DD5553D006E7327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99FF5F9A1DD5553D006E7327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99FF5FA31DD557BB006E7327 /* EventDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailViewController.xib; sourceTree = "<group>"; };
+		99FF5FA61DD557BB006E7327 /* EventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
+		99FF5FB01DD557CB006E7327 /* EventInforTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventInforTableViewCell.xib; sourceTree = "<group>"; };
+		99FF5FB21DD557CB006E7327 /* EventSlideTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventSlideTableViewCell.xib; sourceTree = "<group>"; };
+		99FF5FB51DD557CB006E7327 /* EventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		99FF5FC01DD55837006E7327 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		99FF5FC11DD55837006E7327 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		99FF5FC61DD55921006E7327 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		99FF5FC71DD55921006E7327 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		99FF5FC91DD55942006E7327 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		99FF5FCA1DD55942006E7327 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		99FF5FCF1DD5598F006E7327 /* EventInforTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventInforTableViewCell.h; sourceTree = "<group>"; };
+		99FF5FD01DD5598F006E7327 /* EventInforTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInforTableViewCell.m; sourceTree = "<group>"; };
+		99FF5FD21DD559A1006E7327 /* EventSlideTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSlideTableViewCell.h; sourceTree = "<group>"; };
+		99FF5FD31DD559A1006E7327 /* EventSlideTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventSlideTableViewCell.m; sourceTree = "<group>"; };
+		99FF5FD71DD55AD9006E7327 /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		99FF5FD81DD55AD9006E7327 /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		99FF5FDA1DD56809006E7327 /* APIProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIProtocols.h; sourceTree = "<group>"; };
+		99FF5FDB1DD56882006E7327 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		99FF5FDC1DD56A71006E7327 /* BaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAPI.h; sourceTree = "<group>"; };
+		99FF5FDD1DD56A71006E7327 /* BaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAPI.m; sourceTree = "<group>"; };
+		99FF5FDF1DD5722B006E7327 /* GetEventAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetEventAPI.h; sourceTree = "<group>"; };
+		99FF5FE01DD5722B006E7327 /* GetEventAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetEventAPI.m; sourceTree = "<group>"; };
+		99FF5FE21DD5742B006E7327 /* EventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventModel.h; sourceTree = "<group>"; };
+		99FF5FE31DD5742B006E7327 /* EventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventModel.m; sourceTree = "<group>"; };
+		99FF5FE51DD57699006E7327 /* EventFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventFactory.h; sourceTree = "<group>"; };
+		99FF5FE61DD57699006E7327 /* EventFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventFactory.m; sourceTree = "<group>"; };
+		99FF5FED1DD595B1006E7327 /* GuestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestModel.h; sourceTree = "<group>"; };
+		99FF5FEE1DD595B1006E7327 /* GuestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestModel.m; sourceTree = "<group>"; };
+		99FF5FF01DD596AC006E7327 /* GetGuestByEventAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetGuestByEventAPI.h; sourceTree = "<group>"; };
+		99FF5FF11DD596AC006E7327 /* GetGuestByEventAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetGuestByEventAPI.m; sourceTree = "<group>"; };
+		99FF5FF31DD598EE006E7327 /* GuestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestFactory.h; sourceTree = "<group>"; };
+		99FF5FF41DD598EE006E7327 /* GuestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestFactory.m; sourceTree = "<group>"; };
+		99FF5FF61DD5AE8F006E7327 /* EventGuestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventGuestTableViewCell.h; sourceTree = "<group>"; };
+		99FF5FF71DD5AE8F006E7327 /* EventGuestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventGuestTableViewCell.m; sourceTree = "<group>"; };
+		99FF5FF81DD5AE8F006E7327 /* EventGuestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventGuestTableViewCell.xib; sourceTree = "<group>"; };
+		99FF5FFC1DD5AFA5006E7327 /* GuestCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestCircleView.h; sourceTree = "<group>"; };
+		99FF5FFD1DD5AFA5006E7327 /* GuestCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestCircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99FF5F6E1DD554C5006E7327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99FF5F681DD554C5006E7327 = {
+			isa = PBXGroup;
+			children = (
+				99FF5F731DD554C5006E7327 /* DatingApp */,
+				99FF5F721DD554C5006E7327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99FF5F721DD554C5006E7327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5F711DD554C5006E7327 /* DatingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FF5F731DD554C5006E7327 /* DatingApp */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5F8E1DD5553D006E7327 /* Controller */,
+				99FF5F921DD5553D006E7327 /* Model */,
+				99FF5F931DD5553D006E7327 /* Resources */,
+				99FF5F961DD5553D006E7327 /* View */,
+				99FF5F881DD554C5006E7327 /* Info.plist */,
+				99FF5F801DD554C5006E7327 /* DatingApp.xcdatamodeld */,
+				99FF5F741DD554C5006E7327 /* Supporting Files */,
+			);
+			path = DatingApp;
+			sourceTree = "<group>";
+		};
+		99FF5F741DD554C5006E7327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5F751DD554C5006E7327 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99FF5F8E1DD5553D006E7327 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5F9F1DD557BB006E7327 /* BaseViewController */,
+				99FF5FA11DD557BB006E7327 /* EventDetailViewController */,
+				99FF5FA41DD557BB006E7327 /* EventViewController */,
+				99FF5F8F1DD5553D006E7327 /* AppDelegate */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99FF5F8F1DD5553D006E7327 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5F901DD5553D006E7327 /* AppDelegate.h */,
+				99FF5F911DD5553D006E7327 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		99FF5F921DD5553D006E7327 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FD61DD55AB2006E7327 /* GuestModel */,
+				99FF5FD51DD55AA2006E7327 /* EventModel */,
+				99FF5FDA1DD56809006E7327 /* APIProtocols.h */,
+				99FF5FDC1DD56A71006E7327 /* BaseAPI.h */,
+				99FF5FDD1DD56A71006E7327 /* BaseAPI.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99FF5F931DD5553D006E7327 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5F941DD5553D006E7327 /* Assets.xcassets */,
+				99FF5FDB1DD56882006E7327 /* PrefixHeader.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99FF5F961DD5553D006E7327 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FFB1DD5AF8C006E7327 /* GuestCircleView */,
+				99FF5FAC1DD557CB006E7327 /* EventDetailCells */,
+				99FF5FB31DD557CB006E7327 /* EventTableViewCell */,
+				99FF5F971DD5553D006E7327 /* LaunchScreen.storyboard */,
+				99FF5F991DD5553D006E7327 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99FF5F9F1DD557BB006E7327 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FC01DD55837006E7327 /* BaseViewController.h */,
+				99FF5FC11DD55837006E7327 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		99FF5FA11DD557BB006E7327 /* EventDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FA31DD557BB006E7327 /* EventDetailViewController.xib */,
+				99FF5FC61DD55921006E7327 /* EventDetailViewController.h */,
+				99FF5FC71DD55921006E7327 /* EventDetailViewController.m */,
+			);
+			path = EventDetailViewController;
+			sourceTree = "<group>";
+		};
+		99FF5FA41DD557BB006E7327 /* EventViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FA61DD557BB006E7327 /* EventViewController.xib */,
+				99FF5FC91DD55942006E7327 /* EventViewController.h */,
+				99FF5FCA1DD55942006E7327 /* EventViewController.m */,
+			);
+			path = EventViewController;
+			sourceTree = "<group>";
+		};
+		99FF5FAC1DD557CB006E7327 /* EventDetailCells */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FB01DD557CB006E7327 /* EventInforTableViewCell.xib */,
+				99FF5FB21DD557CB006E7327 /* EventSlideTableViewCell.xib */,
+				99FF5FCF1DD5598F006E7327 /* EventInforTableViewCell.h */,
+				99FF5FD01DD5598F006E7327 /* EventInforTableViewCell.m */,
+				99FF5FD21DD559A1006E7327 /* EventSlideTableViewCell.h */,
+				99FF5FD31DD559A1006E7327 /* EventSlideTableViewCell.m */,
+				99FF5FF61DD5AE8F006E7327 /* EventGuestTableViewCell.h */,
+				99FF5FF71DD5AE8F006E7327 /* EventGuestTableViewCell.m */,
+				99FF5FF81DD5AE8F006E7327 /* EventGuestTableViewCell.xib */,
+			);
+			path = EventDetailCells;
+			sourceTree = "<group>";
+		};
+		99FF5FB31DD557CB006E7327 /* EventTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FB51DD557CB006E7327 /* EventTableViewCell.xib */,
+				99FF5FD71DD55AD9006E7327 /* EventTableViewCell.h */,
+				99FF5FD81DD55AD9006E7327 /* EventTableViewCell.m */,
+			);
+			path = EventTableViewCell;
+			sourceTree = "<group>";
+		};
+		99FF5FD51DD55AA2006E7327 /* EventModel */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FDF1DD5722B006E7327 /* GetEventAPI.h */,
+				99FF5FE01DD5722B006E7327 /* GetEventAPI.m */,
+				99FF5FE21DD5742B006E7327 /* EventModel.h */,
+				99FF5FE31DD5742B006E7327 /* EventModel.m */,
+				99FF5FE51DD57699006E7327 /* EventFactory.h */,
+				99FF5FE61DD57699006E7327 /* EventFactory.m */,
+			);
+			path = EventModel;
+			sourceTree = "<group>";
+		};
+		99FF5FD61DD55AB2006E7327 /* GuestModel */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FED1DD595B1006E7327 /* GuestModel.h */,
+				99FF5FEE1DD595B1006E7327 /* GuestModel.m */,
+				99FF5FF01DD596AC006E7327 /* GetGuestByEventAPI.h */,
+				99FF5FF11DD596AC006E7327 /* GetGuestByEventAPI.m */,
+				99FF5FF31DD598EE006E7327 /* GuestFactory.h */,
+				99FF5FF41DD598EE006E7327 /* GuestFactory.m */,
+			);
+			path = GuestModel;
+			sourceTree = "<group>";
+		};
+		99FF5FFB1DD5AF8C006E7327 /* GuestCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				99FF5FFC1DD5AFA5006E7327 /* GuestCircleView.h */,
+				99FF5FFD1DD5AFA5006E7327 /* GuestCircleView.m */,
+			);
+			path = GuestCircleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99FF5F701DD554C5006E7327 /* DatingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FF5F8B1DD554C5006E7327 /* Build configuration list for PBXNativeTarget "DatingApp" */;
+			buildPhases = (
+				99FF5F6D1DD554C5006E7327 /* Sources */,
+				99FF5F6E1DD554C5006E7327 /* Frameworks */,
+				99FF5F6F1DD554C5006E7327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatingApp;
+			productName = DatingApp;
+			productReference = 99FF5F711DD554C5006E7327 /* DatingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99FF5F691DD554C5006E7327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Hoang Anh ";
+				TargetAttributes = {
+					99FF5F701DD554C5006E7327 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZX7B3MD4AY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99FF5F6C1DD554C5006E7327 /* Build configuration list for PBXProject "DatingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99FF5F681DD554C5006E7327;
+			productRefGroup = 99FF5F721DD554C5006E7327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99FF5F701DD554C5006E7327 /* DatingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99FF5F6F1DD554C5006E7327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FF5F9E1DD5553D006E7327 /* Main.storyboard in Resources */,
+				99FF5FB91DD557CB006E7327 /* EventInforTableViewCell.xib in Resources */,
+				99FF5FBB1DD557CB006E7327 /* EventSlideTableViewCell.xib in Resources */,
+				99FF5F9C1DD5553D006E7327 /* Assets.xcassets in Resources */,
+				99FF5FAB1DD557BB006E7327 /* EventViewController.xib in Resources */,
+				99FF5FFA1DD5AE8F006E7327 /* EventGuestTableViewCell.xib in Resources */,
+				99FF5FA91DD557BB006E7327 /* EventDetailViewController.xib in Resources */,
+				99FF5FBD1DD557CB006E7327 /* EventTableViewCell.xib in Resources */,
+				99FF5F9D1DD5553D006E7327 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99FF5F6D1DD554C5006E7327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FF5FEF1DD595B1006E7327 /* GuestModel.m in Sources */,
+				99FF5FE11DD5722B006E7327 /* GetEventAPI.m in Sources */,
+				99FF5FD41DD559A1006E7327 /* EventSlideTableViewCell.m in Sources */,
+				99FF5FC81DD55921006E7327 /* EventDetailViewController.m in Sources */,
+				99FF5FE41DD5742B006E7327 /* EventModel.m in Sources */,
+				99FF5F821DD554C5006E7327 /* DatingApp.xcdatamodeld in Sources */,
+				99FF5FC21DD55837006E7327 /* BaseViewController.m in Sources */,
+				99FF5FFE1DD5AFA5006E7327 /* GuestCircleView.m in Sources */,
+				99FF5FDE1DD56A71006E7327 /* BaseAPI.m in Sources */,
+				99FF5FD91DD55AD9006E7327 /* EventTableViewCell.m in Sources */,
+				99FF5FF91DD5AE8F006E7327 /* EventGuestTableViewCell.m in Sources */,
+				99FF5FF21DD596AC006E7327 /* GetGuestByEventAPI.m in Sources */,
+				99FF5FF51DD598EE006E7327 /* GuestFactory.m in Sources */,
+				99FF5F761DD554C5006E7327 /* main.m in Sources */,
+				99FF5FD11DD5598F006E7327 /* EventInforTableViewCell.m in Sources */,
+				99FF5FE71DD57699006E7327 /* EventFactory.m in Sources */,
+				99FF5FCB1DD55942006E7327 /* EventViewController.m in Sources */,
+				99FF5F9B1DD5553D006E7327 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99FF5F971DD5553D006E7327 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99FF5F981DD5553D006E7327 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		99FF5F991DD5553D006E7327 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99FF5F9A1DD5553D006E7327 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99FF5F891DD554C5006E7327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Resources/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99FF5F8A1DD554C5006E7327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Resources/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99FF5F8C1DD554C5006E7327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZX7B3MD4AY;
+				GCC_PREFIX_HEADER = DatingApp/Resources/PrefixHeader.pch;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steven.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99FF5F8D1DD554C5006E7327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZX7B3MD4AY;
+				GCC_PREFIX_HEADER = DatingApp/Resources/PrefixHeader.pch;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steven.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99FF5F6C1DD554C5006E7327 /* Build configuration list for PBXProject "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FF5F891DD554C5006E7327 /* Debug */,
+				99FF5F8A1DD554C5006E7327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FF5F8B1DD554C5006E7327 /* Build configuration list for PBXNativeTarget "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FF5F8C1DD554C5006E7327 /* Debug */,
+				99FF5F8D1DD554C5006E7327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99FF5F801DD554C5006E7327 /* DatingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99FF5F811DD554C5006E7327 /* DatingApp.xcdatamodel */,
+			);
+			currentVersion = 99FF5F811DD554C5006E7327 /* DatingApp.xcdatamodel */;
+			path = DatingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99FF5F691DD554C5006E7327 /* Project object */;
+}
